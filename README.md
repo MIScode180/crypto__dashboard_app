@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -13,3 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
+=======
+# crypto__dashboard_app
+Crypto Dashboard App — a responsive web application built with React, Vite, and Tailwind CSS. Integrates live cryptocurrency APIs to display market data, price trends, and analytics through interactive charts and dynamic UI components.
+>>>>>>> 4e47970bd286847c0acec79ae46b4965048c4fe6
