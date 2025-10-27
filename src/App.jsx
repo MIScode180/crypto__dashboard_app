@@ -8,7 +8,7 @@ import { login } from "./Store/authSlice";
 
 // Pages
 import Home from "./pages/HomePage";
-import Login from "./pages/Login";
+import Login from "./pages/Login";  
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Alerts from "./pages/Alerts";
