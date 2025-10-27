@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import ThemeToggle from "./ThemeToggle";
 import AvatarPicker from "./AvatarPicker";
 

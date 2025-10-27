@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchWatchlist, deleteWatchlistCoin } from "@/Store/watchlistSlice";
-import WatchlistTable from "../components/WatchlistTable";
+import WatchlistTable from "../Components/WatchlistTable";
 import { toast } from "sonner";
 
 export default function WatchlistPage() {

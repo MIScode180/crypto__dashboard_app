@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PriceChart from "../components/PriceChart";
+import PriceChart from "../Components/PriceChart";
 import { getMarketChart } from "../Api/getMarketChart"; // Adjust the path if needed
 
 export default function CoinDetail() {

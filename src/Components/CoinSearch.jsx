@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Input } from "@/components/ui/input";
+import { Input } from "@/Components/ui/input";
 
 export default function CoinSearch({ coinList = [], onSelect }) {
   const [query, setQuery] = useState("");

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 
 export default function WatchlistItem({ coin, onRemove }) {
   if (!coin || !coin.name || !coin.symbol) return null;

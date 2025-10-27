@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
 import { useNavigate } from "react-router-dom";
 import CoinSearch from "../Components/CoinSearch";
 
-export default function AnimatedAlertForm({ onSubmit, coinList = [] }) {
+export default function AlertForm({ onSubmit, coinList = [] }) {
   const [coinId, setCoinId] = useState("");
   const [targetPrice, setTargetPrice] = useState("");
   const [condition, setCondition] = useState("above");

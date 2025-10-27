@@ -3,9 +3,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import authService from "../appwrite/Auth";
 import { login, logout } from "../Store/authSlice";
-import AvatarPicker from "@/components/AvatarPicker";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import AvatarPicker from "@/Components/AvatarPicker";
+import { Input } from "@/Components/ui/input";
+import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 

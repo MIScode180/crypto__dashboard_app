@@ -3,8 +3,8 @@ import { useRegisterUserMutation } from '../Api/authApi'
 import { useDispatch } from "react-redux";
 import { login } from "../Store/authSlice";
 import { useNavigate } from "react-router-dom";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Button } from "@/Components/ui/button";
 
 export default function RegisterForm() {
   const dispatch = useDispatch();

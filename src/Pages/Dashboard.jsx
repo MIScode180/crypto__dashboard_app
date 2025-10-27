@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 
-import PriceChart from "../components/PriceChart";
-import CoinCard from "../components/CoinCard";
+import PriceChart from "../Components/PriceChart";
+import CoinCard from "../Components/CoinCard";
 import FearGreedCard from "../Components/CryptoDetail/FearGreedCard";
 import TrendingCoins from "../Components/CryptoDetail/TrendingCoins";
 // import HomePage from '../Pages/HomePage';

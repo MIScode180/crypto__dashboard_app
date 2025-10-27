@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getAllCoins } from "../Api/coinApi"; // Your CoinGecko utility
 import { WatchlistService } from "../appwrite/WatchlistService";
 import { useSelector } from "react-redux";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 
 export default function AddToWatchlist() {
   const [allCoins, setAllCoins] = useState([]);

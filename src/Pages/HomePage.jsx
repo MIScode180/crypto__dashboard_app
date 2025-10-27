@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useGetTopCoinsQuery } from "../Api/coinApi";
 import CoinCard from "../Components/CoinCard";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import ThemeToggle from "../Components/ThemeToggle";
 
 export default function Home() {

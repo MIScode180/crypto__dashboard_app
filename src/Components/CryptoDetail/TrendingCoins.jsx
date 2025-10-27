@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { useGetTopCoinsQuery } from "../../Api/coinApi";
 import watchlistService from "@/appwrite/WatchlistService";
 import { fetchWatchlist } from "@/Store/watchlistSlice";
