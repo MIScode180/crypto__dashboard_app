@@ -7,14 +7,14 @@ import ProtectedRoute from "./Components/ProtectedRoute";
 import { login } from "./Store/authSlice";
 
 // Pages
-import Home from "./pages/HomePage";
-import Login from "./pages/Login";  
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import Alerts from "./pages/Alerts";
-import WatchlistPage from "./pages/WatchlistPage";
-import Profile from "./pages/Profile";
-import CoinDetail from "./pages/CoinDetail";
+import Home from "./Pages/HomePage";
+import Login from "./Pages/Login";  
+import Register from "./Pages/Register";
+import Dashboard from "./Pages/Dashboard";
+import Alerts from "./Pages/Alerts";
+import WatchlistPage from "./Pages/WatchlistPage";
+import Profile from "./Pages/Profile";
+import CoinDetail from "./Pages/CoinDetail";
 
 function App() {
   const dispatch = useDispatch();
